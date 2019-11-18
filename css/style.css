@@ -1,0 +1,126 @@
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #fdf5f9;
+}
+
+header{
+	width: 100%;
+	border-bottom: 5px solid #4e5964;
+	margin-bottom: 0;
+
+}
+
+header h1{
+	font-family: "logo";
+	font-size: 70px;
+	color: #4e5964;
+	text-align: center;
+	vertical-align: center;
+}
+
+main{
+	height: 100%;
+	margin-top: 10px;
+	width: 100%;
+}
+
+main .prepare{
+	vertical-align: top;
+	height: 100%;
+	width: 48%;
+	margin: 1%;
+	height: 100%;
+	display: inline-block;
+	background-color: #f4b3b5;
+	border-radius: 25px;
+}
+
+main .ready{
+	vertical-align: top;
+	margin-top: 1%;
+	height: 100%;
+	width: 48%;
+	height: 100%;
+	display: inline-block;
+	background-color: #b1f6c5;
+	border-radius: 25px;
+}
+
+.time{
+	text-align: center;
+	color: white;
+	font-family: "logo";
+	font-size: 25px;
+}
+
+.time p{
+	width: 26%;
+	margin-left: 37%;
+	border-radius: 30px;
+	background-color: #4e5964;
+	padding: 5px;
+
+}
+
+.order{
+	width: 93%;
+	margin: 3%;
+	border-radius: 25px;
+	
+}
+
+.order h3, p{
+	text-align: center;	
+	color: white;
+	font-family: "logo"
+}
+
+.order h3{
+	padding-top: 10px;
+	font-size: 25px;
+}
+
+.prepare .order{
+	background-color: #fa2f2f;
+}
+
+.ready .order{
+	background-color: #63f78d;
+}
+
+.ready-bn, .delete-bn{
+	display: inline-block;
+	width: 30%;
+}
+
+.ready-bn, .delete-bn{
+	margin-left: 13%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	
+	border:0;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: "logo";
+}
+
+.ready-bn{
+	background-color: #a37df5;
+}
+
+.delete-bn{
+	background-color: #4e5964;
+}
+
+
+@font-face {
+	font-family: "logo"; 
+	src: url("fonts/logo.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
